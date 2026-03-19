@@ -89,10 +89,10 @@ function OverviewSection() {
     <div className="space-y-12">
       <div className="text-center max-w-3xl mx-auto">
         <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-          Dos Enfoques, Un Objetivo
+          🧩 Dos enfoques, un mismo objetivo
         </h2>
         <p className="text-lg text-gray-600 dark:text-gray-300">
-          Ambos sistemas cubren necesidades dentro de un contact center, pero responden a modelos distintos de solución.
+          Ambos sistemas resuelven la gestión de clientes en un contact center, pero desde enfoques diferentes en cómo modelan la información y operan el negocio.
         </p>
       </div>
 
@@ -106,27 +106,31 @@ function OverviewSection() {
                 <Sparkles className="w-8 h-8 text-blue-600 dark:text-blue-400" />
               </div>
               <div className="ml-4">
-                <h3 className="text-2xl font-bold text-gray-900 dark:text-white">uc-uCRM (UCX)</h3>
-                <p className="text-sm text-blue-600 dark:text-blue-400 font-medium">Plataforma Moderna</p>
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-white">🟢 uc-uCRM (UCX)</h3>
+                <p className="text-sm text-blue-600 dark:text-blue-400 font-medium">Plataforma CRM Flexible</p>
               </div>
             </div>
             
             <p className="text-gray-600 dark:text-gray-300 mb-6">
-              CRM extensible con modelo de datos dinámico y capacidad de adaptación a distintos negocios.
+              Un CRM diseñado como plataforma, enfocado en la gestión integral de la información del cliente y su adaptación a distintos modelos de negocio.
             </p>
 
             <div className="space-y-3">
               <div className="flex items-start">
                 <CheckCircle2 className="w-5 h-5 text-blue-500 mt-0.5 mr-3 flex-shrink-0" />
-                <span className="text-gray-700 dark:text-gray-300"><strong>Extensible:</strong> Módulos dinámicos y entidades personalizadas</span>
+                <span className="text-gray-700 dark:text-gray-300"><strong>🧱 Modelo de datos dinámico:</strong> Estructura configurable mediante Form Builder y entidades personalizadas</span>
               </div>
               <div className="flex items-start">
                 <CheckCircle2 className="w-5 h-5 text-blue-500 mt-0.5 mr-3 flex-shrink-0" />
-                <span className="text-gray-700 dark:text-gray-300"><strong>Modelo dinámico:</strong> Form Builder sin límites</span>
+                <span className="text-gray-700 dark:text-gray-300"><strong>👁️ Vista 360° del cliente:</strong> Toda la información centralizada: datos, interacciones, notas y seguimiento</span>
               </div>
               <div className="flex items-start">
                 <CheckCircle2 className="w-5 h-5 text-blue-500 mt-0.5 mr-3 flex-shrink-0" />
-                <span className="text-gray-700 dark:text-gray-300"><strong>Integrable:</strong> Webhooks y arquitectura event-driven</span>
+                <span className="text-gray-700 dark:text-gray-300"><strong>🔄 Gestión avanzada de datos:</strong> Operaciones masivas, filtros complejos y resolución de duplicados</span>
+              </div>
+              <div className="flex items-start">
+                <CheckCircle2 className="w-5 h-5 text-blue-500 mt-0.5 mr-3 flex-shrink-0" />
+                <span className="text-gray-700 dark:text-gray-300"><strong>🧩 Extensibilidad:</strong> Posibilidad de incorporar nuevas entidades y procesos sin redefinir el sistema</span>
               </div>
             </div>
           </div>
@@ -141,27 +145,31 @@ function OverviewSection() {
                 <Target className="w-8 h-8 text-green-600 dark:text-green-400" />
               </div>
               <div className="ml-4">
-                <h3 className="text-2xl font-bold text-gray-900 dark:text-white">uc-CRM-Omni (v6)</h3>
-                <p className="text-sm text-green-600 dark:text-green-400 font-medium">CRM Operativo</p>
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-white">🟡 uc-CRM-Omni (v6)</h3>
+                <p className="text-sm text-green-600 dark:text-green-400 font-medium">CRM Operativo de Campañas</p>
               </div>
             </div>
             
             <p className="text-gray-600 dark:text-gray-300 mb-6">
-              Orientado a la operación de campañas con estructuras predefinidas y foco en la gestión de agentes.
+              Un CRM diseñado para la ejecución de campañas, con foco en la gestión de agentes, bases de datos y resultados operativos.
             </p>
 
             <div className="space-y-3">
               <div className="flex items-start">
                 <CheckCircle2 className="w-5 h-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" />
-                <span className="text-gray-700 dark:text-gray-300"><strong>Orientado a campañas:</strong> Gestión nativa y avanzada</span>
+                <span className="text-gray-700 dark:text-gray-300"><strong>📞 Enfoque en campañas:</strong> Gestión nativa de dialer, listas de contacto y tipificaciones</span>
               </div>
               <div className="flex items-start">
                 <CheckCircle2 className="w-5 h-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" />
-                <span className="text-gray-700 dark:text-gray-300"><strong>Operativo:</strong> Asignación y distribución automática</span>
+                <span className="text-gray-700 dark:text-gray-300"><strong>⚙️ Flujo operativo definido:</strong> Procesos estructurados para la gestión diaria de interacciones</span>
               </div>
               <div className="flex items-start">
                 <CheckCircle2 className="w-5 h-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" />
-                <span className="text-gray-700 dark:text-gray-300"><strong>Estructura fija:</strong> Reportes JasperReports robustos</span>
+                <span className="text-gray-700 dark:text-gray-300"><strong>📊 Reporting consolidado:</strong> Sistema robusto de reportes orientado a operación</span>
+              </div>
+              <div className="flex items-start">
+                <CheckCircle2 className="w-5 h-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" />
+                <span className="text-gray-700 dark:text-gray-300"><strong>🗂️ Gestión de bases:</strong> Administración de datos mediante cargas y estructuras predefinidas</span>
               </div>
             </div>
           </div>
